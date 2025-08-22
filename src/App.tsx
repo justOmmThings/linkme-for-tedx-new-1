@@ -30,7 +30,7 @@ function App() {
       name: 'Website',
       description: 'Explore past events & speaker stories',
       icon: Globe,
-      url: 'tedxbitshyderabad.vercel.app',
+      url: 'https://tedxbitshyderabadsocials.vercel.app/',
       color: 'from-black-500 to-black-600',
       hoverColor: 'hover:from-black-600 hover:to-black-700'
     },
