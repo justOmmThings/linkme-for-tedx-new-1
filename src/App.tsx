@@ -22,7 +22,7 @@ function App() {
       name: 'The TedX Youtube',
       description: 'Join to watch our previous preimiered talks',
       icon: Youtube,
-      url: 'https://whatsapp.com/channel/tedxbitshyd',
+      url: 'https://www.youtube.com/@TEDx',
       color: 'from-red-500 to-red-600',
       hoverColor: 'hover:from-red-600 hover:to-red-700'
     },
@@ -30,7 +30,7 @@ function App() {
       name: 'Website',
       description: 'Explore past events & speaker stories',
       icon: Globe,
-      url: 'https://www.youtube.com/@TEDx',
+      url: '#',
       color: 'from-black-500 to-black-600',
       hoverColor: 'hover:from-black-600 hover:to-black-700'
     },
