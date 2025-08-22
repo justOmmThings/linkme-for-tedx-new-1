@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Instagram, MessageCircle, Globe, ArrowRight, Sparkles } from 'lucide-react';
+import { Instagram, MessageCircle, Globe, ArrowRight, Sparkles, Youtube, LinkedinIcon } from 'lucide-react';
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -14,23 +14,31 @@ function App() {
       name: 'Instagram',
       description: 'Follow us for updates & behind-the-scenes',
       icon: Instagram,
-      url: 'https://instagram.com/tedxbitshyd',
+      url: 'https://www.instagram.com/tedxbitshyderabad?igsh=cWI5YmF3dXk5dGR2',
       color: 'from-pink-500 to-purple-600',
       hoverColor: 'hover:from-pink-600 hover:to-purple-700'
     },
     {
-      name: 'WhatsApp Community',
-      description: 'Join for announcements & events',
-      icon: MessageCircle,
+      name: 'The TedX Youtube',
+      description: 'Join to watch our previous preimiered talks',
+      icon: Youtube,
       url: 'https://whatsapp.com/channel/tedxbitshyd',
-      color: 'from-green-500 to-emerald-600',
-      hoverColor: 'hover:from-green-600 hover:to-emerald-700'
+      color: 'from-red-500 to-red-600',
+      hoverColor: 'hover:from-red-600 hover:to-red-700'
     },
     {
       name: 'Website',
       description: 'Explore past events & speaker stories',
       icon: Globe,
-      url: 'https://tedxbitshyd.com',
+      url: 'https://www.youtube.com/@TEDx',
+      color: 'from-black-500 to-black-600',
+      hoverColor: 'hover:from-black-600 hover:to-black-700'
+    },
+    {
+      name: 'LinkedIn',
+      description: 'Explore previous posts and updates',
+      icon: LinkedinIcon,
+      url: 'https://www.linkedin.com/company/tedxbitshyderabad?originalSubdomain=in',
       color: 'from-blue-500 to-indigo-600',
       hoverColor: 'hover:from-blue-600 hover:to-indigo-700'
     }
